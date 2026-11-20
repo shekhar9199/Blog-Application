@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "YOUR_API_KEY";
+const API = "YOUR_API_KEY"; // Spring Backend Api Key
 
 export const getPosts = () => axios.get(`${API}/getAll`);
 export const getPost = (id) => axios.get(`${API}/${id}`);
